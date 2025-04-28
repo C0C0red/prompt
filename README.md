@@ -2,7 +2,7 @@
 Prompt
 ------
 ### Description
-Project for AI-based implant feature.
+Project for AI-based (ChatGPT) implant feature.
 
 The repository contains the following folders:
 - **pocs**: Python and C# programs that request and reflectively execute AI-generated code.
@@ -12,18 +12,18 @@ Each folder has its own `README.md` for instructions.
 
 ### Project tree overview
 ```
-├── mythic
+├── mythic               # code for Mythic Medusa's prompt command (medusai project)
 │   ├── ...
 │   └── README.md
-├── pocs
-│   ├── c#
+├── pocs              
+│   ├── c#               # code for the C# PoC
 │   │   ├── ...
 │   │   ├── Program.cs 
 │   │   └── README.md
-│   └── python
+│   └── python           # code for the python PoC
 │       ├── prompt.py
 │       └── README.md
-├── media
+├── media                 
 │   ├── ...
 └── README.md
 ```
